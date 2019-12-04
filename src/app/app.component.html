@@ -49,10 +49,10 @@
     </div>
 
     <div class="col-6">
-      <h2>It's STORY TIME! <span id="heart">&hearts;</span></h2>
+      <h2>STORY TIME! <span id="heart">&hearts;</span></h2>
       <div class="row">
         <div class="col">
-          <div class="story-outline">
+          <div class="story-outline" *ngIf="display">
             Once upon a time, there was a magical, (and insanely cute!) animal named <span id="madlibs-tag">{{petName}}</span> and
             they lived in Misty Meadows located in <span id="madlibs-tag">{{cityName}}</span>. One day, while
             <span id="madlibs-tag">{{petName}}</span> was out and about, the local Meadow Fairy suddenly appeared!

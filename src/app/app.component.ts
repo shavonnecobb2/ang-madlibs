@@ -11,13 +11,21 @@ export class AppComponent {
   petName: string;
   cityName: string;
   countryName: string;
+  display: boolean = false;
 
   title = 'madlibs';
 
 
   save() {
-    console.log(this.foodItem && this.color && this.petName
-    && this.cityName && this.countryName);
+    if (this.foodItem && this.color && this.petName
+      && this.cityName && this.countryName) {
+        this.display = true;
+      }
+      else {
+        alert("Please fill out the forms completely!");
+      }
+    // console.log(this.foodItem && this.color && this.petName
+    // && this.cityName && this.countryName);
   }
 
   reset() {
@@ -26,5 +34,6 @@ export class AppComponent {
     this.petName = '';
     this.cityName = '';
     this.countryName = '';
+    this.display = false;
   }
 }
