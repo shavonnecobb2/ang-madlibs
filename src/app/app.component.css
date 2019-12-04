@@ -1,0 +1,68 @@
+.shae-container {
+  font-family: monospace;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 80px;
+  background-image: url("https://images.pexels.com/photos/3109793/pexels-photo-3109793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: right;
+  opacity: 0.85;
+  color: white;
+
+}
+
+p {
+  color: salmon;
+}
+
+.madlibs-container {
+  margin-top: 50px;
+}
+
+.shae-button {
+  margin: 10px;
+  text-align: center;
+}
+
+.story-outline {
+  border: solid 1px lightgrey;
+  border-width: medium;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.save-btn {
+  border: solid 1px;
+  margin: 10px;
+}
+
+.reset-btn {
+    border: solid 1px;
+    margin: 10px;
+}
+
+.save-btn:hover, .reset-btn:hover {
+  background-color: pink;
+}
+
+h2 {
+  text-align: center;
+}
+
+#heart {
+  color: salmon;
+}
+
+#madlibs-tag {
+  color: salmon;
+  font-size: 16.5px;
+}
